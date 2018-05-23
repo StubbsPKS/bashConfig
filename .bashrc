@@ -17,8 +17,6 @@ if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
 fi
 
-
-
 JAVA_HOME=/usr/lib/jvm/jre-1.6.0-openjdk.x86_64
 PATH=$PATH:/usr/lib/jvm/jre-1.6.0-openjdk.x86_64/bin
 
