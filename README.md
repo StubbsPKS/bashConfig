@@ -1,2 +1,4 @@
-# bashConfig
-My bash configuration files
+# Bash Config
+
+## Files
+- .bash_rc
