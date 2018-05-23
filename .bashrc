@@ -68,9 +68,6 @@ ec2() {
 
 ## ALIASES
 
-# Shortcut for most used ls
-alias lt='ls -lthr --color=auto'
-
 # Grab my ip from CLI
 alias myip="curl ifconfig.co"
 
@@ -80,6 +77,7 @@ alias l.='ls -ld .* --color=auto'
 # Various permutations of ls
 alias ll='ls -l --color=always'
 alias lt='ls -lthr --color=auto'
+alias la='ls -la --color=auto'
 
 # Always use vim
 alias vi='vim'
