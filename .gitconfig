@@ -1,0 +1,10 @@
+[credential]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
+[user]
+	email = mmiehling@maned.com
+	name = Mat Miehling
+[color]
+	ui = auto
+[alias]
+	tags = log --tags --no-walk --date=iso --pretty='%C(auto)%h %cd%d %s'
