@@ -17,6 +17,8 @@ if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
 fi
 
+
+
 JAVA_HOME=/usr/lib/jvm/jre-1.6.0-openjdk.x86_64
 PATH=$PATH:/usr/lib/jvm/jre-1.6.0-openjdk.x86_64/bin
 
@@ -76,6 +78,7 @@ alias l.='ls -ld .* --color=auto'
 alias ll='ls -l --color=always'
 alias lt='ls -lthr --color=auto'
 alias la='ls -la --color=auto'
+alias lls='ls -lShr --color=auto'
 
 # Always use vim
 alias vi='vim'
