@@ -57,7 +57,7 @@ ec2() {
 	local searchTerm=$1
 	local region=$2
 	
-	cmdString="aws ec2 describe-instances --filters \"Name=tag:Name,Values=*${searchTerm}*\" --query \"Reservations[*].Instances[*].[PrivateIpAddress,Tags[?Key=='Name']| [0].Value]\" --output=table"
+	cmdString="aws ec2 describe-instances --filters \"Name=tag:Name,Values=*${searchTerm}*\" --query \"Reservations[*].Instances[*].[InstanceId,PrivateIpAddress,Tags[?Key=='Name']| [0].Value]\" --output=table"
 	if [[ ! -z $region ]]; then
 		cmdString="$cmdString --region $region"
 	fi
